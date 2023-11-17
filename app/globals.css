@@ -1,7 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+@font-face {
+  font-family: "Matter";
+  src: url("../app/assets/Matter-Regular.ttf");
+}
+@font-face {
+  font-family: "Silka";
+  src: url("../app/assets/silka-regular-webfont.ttf");
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
