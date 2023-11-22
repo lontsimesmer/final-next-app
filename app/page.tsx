@@ -199,21 +199,141 @@ export default function Home() {
               single platform
             </h1>
             <div className="flex flex-col gap-2">
-              <p className="font-normal text-lg text-gray-900 tracking-normal">
-                Save on your tech stack with one HR platform
-              </p>
-              <p className="font-normal text-lg text-gray-900 tracking-normal">
-                Reduce onboarding time to just 5 minutes
-              </p>
-              <p className="font-normal text-lg text-gray-900 tracking-normal">
-                Eliminate errors and duplicate work with one process
-              </p>
-              <p className="font-normal text-lg text-gray-900 tracking-normal">
-                Get a holistic view of employer costs, headcount and churn
-              </p>
-              <p className="font-normal text-lg text-gray-900 tracking-normal">
-                Give your whole team a consistent experience
-              </p>
+              <div className="flex gap-1 items-center">
+                <svg
+                  viewBox="0 0 512 512"
+                  fill="currentColor"
+                  height="1.6em"
+                  width="1.6em"
+                >
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeMiterlimit={10}
+                    strokeWidth={40}
+                    d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z"
+                  />
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={40}
+                    d="M352 176L217.6 336 160 272"
+                  />
+                </svg>
+                <p className="font-light text-lg text-gray-900 tracking-normal">
+                  Save on your tech stack with one HR platform
+                </p>
+              </div>
+              <div className="flex gap-1 items-center">
+                <svg
+                  viewBox="0 0 512 512"
+                  fill="currentColor"
+                  height="1.6em"
+                  width="1.6em"
+                >
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeMiterlimit={10}
+                    strokeWidth={40}
+                    d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z"
+                  />
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={40}
+                    d="M352 176L217.6 336 160 272"
+                  />
+                </svg>
+                <p className="font-light text-lg text-gray-900 tracking-normal">
+                  Reduce onboarding time to just 5 minutes
+                </p>
+              </div>
+              <div className="flex gap-1 items-center">
+                <svg
+                  viewBox="0 0 512 512"
+                  fill="currentColor"
+                  height="1.6em"
+                  width="1.6em"
+                >
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeMiterlimit={10}
+                    strokeWidth={40}
+                    d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z"
+                  />
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={40}
+                    d="M352 176L217.6 336 160 272"
+                  />
+                </svg>
+                <p className="font-light text-lg text-gray-900 tracking-normal">
+                  Eliminate errors and duplicate work with one process
+                </p>
+              </div>
+              <div className="flex gap-1 items-center">
+                <svg
+                  viewBox="0 0 512 512"
+                  fill="currentColor"
+                  height="1.6em"
+                  width="1.6em"
+                >
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeMiterlimit={10}
+                    strokeWidth={40}
+                    d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z"
+                  />
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={40}
+                    d="M352 176L217.6 336 160 272"
+                  />
+                </svg>
+                <p className="font-light text-lg text-gray-900 tracking-normal">
+                  Get a holistic view of employer costs, headcount and churn
+                </p>
+              </div>
+              <div className="flex gap-1 items-center">
+                <svg
+                  viewBox="0 0 512 512"
+                  fill="currentColor"
+                  height="1.6em"
+                  width="1.6em"
+                >
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeMiterlimit={10}
+                    strokeWidth={40}
+                    d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z"
+                  />
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={40}
+                    d="M352 176L217.6 336 160 272"
+                  />
+                </svg>
+                <p className="font-light text-lg text-gray-900 tracking-normal">
+                  Give your whole team a consistent experience
+                </p>
+              </div>
             </div>
             <button className="bg-purple-600 h-10 hover:bg-purple-700 rounded-lg text-white w-32">
               Learn more
@@ -227,21 +347,141 @@ export default function Home() {
               minutes
             </h1>
             <div className="flex flex-col gap-2">
-              <p className="font-normal text-lg text-gray-900 tracking-normal">
-                Bulk pay contractors, EORs, and direct employees effortlessly
-              </p>
-              <p className="font-normal text-lg text-gray-900 tracking-normal">
-                We handle taxes, provide benefits, payslips, and way more
-              </p>
-              <p className="font-normal text-lg text-gray-900 tracking-normal">
-                Eliminate admin with automated contractor invoicing
-              </p>
-              <p className="font-normal text-lg text-gray-900 tracking-normal">
-                Give your team flexibility with 15+ global payment options
-              </p>
-              <p className="font-normal text-lg text-gray-900 tracking-normal">
-                Local, legal, tax, and accounting expertise just a click away
-              </p>
+              <div className="flex gap-1 items-center">
+                <svg
+                  viewBox="0 0 512 512"
+                  fill="currentColor"
+                  height="1.6em"
+                  width="1.6em"
+                >
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeMiterlimit={10}
+                    strokeWidth={40}
+                    d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z"
+                  />
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={40}
+                    d="M352 176L217.6 336 160 272"
+                  />
+                </svg>
+                <p className="font-normal text-lg text-gray-900 tracking-normal">
+                  Bulk pay contractors, EORs, and direct employees effortlessly
+                </p>
+              </div>
+              <div className="flex gap-1 items-center">
+                <svg
+                  viewBox="0 0 512 512"
+                  fill="currentColor"
+                  height="1.6em"
+                  width="1.6em"
+                >
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeMiterlimit={10}
+                    strokeWidth={40}
+                    d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z"
+                  />
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={40}
+                    d="M352 176L217.6 336 160 272"
+                  />
+                </svg>
+                <p className="font-normal text-lg text-gray-900 tracking-normal">
+                  We handle taxes, provide benefits, payslips, and way more
+                </p>
+              </div>
+              <div className="flex gap-1 items-center">
+                <svg
+                  viewBox="0 0 512 512"
+                  fill="currentColor"
+                  height="1.6em"
+                  width="1.6em"
+                >
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeMiterlimit={10}
+                    strokeWidth={40}
+                    d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z"
+                  />
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={40}
+                    d="M352 176L217.6 336 160 272"
+                  />
+                </svg>
+                <p className="font-normal text-lg text-gray-900 tracking-normal">
+                  Eliminate admin with automated contractor invoicing
+                </p>
+              </div>
+              <div className="flex gap-1 items-center">
+                <svg
+                  viewBox="0 0 512 512"
+                  fill="currentColor"
+                  height="1.6em"
+                  width="1.6em"
+                >
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeMiterlimit={10}
+                    strokeWidth={40}
+                    d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z"
+                  />
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={40}
+                    d="M352 176L217.6 336 160 272"
+                  />
+                </svg>
+                <p className="font-normal text-lg text-gray-900 tracking-normal">
+                  Give your team flexibility with 15+ global payment options
+                </p>
+              </div>
+              <div className="flex gap-1 items-center">
+                <svg
+                  viewBox="0 0 512 512"
+                  fill="currentColor"
+                  height="1.6em"
+                  width="1.6em"
+                >
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeMiterlimit={10}
+                    strokeWidth={40}
+                    d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192 192-86 192-192z"
+                  />
+                  <path
+                    fill="none"
+                    stroke="indigo"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={40}
+                    d="M352 176L217.6 336 160 272"
+                  />
+                </svg>
+                <p className="font-normal text-lg text-gray-900 tracking-normal">
+                  Local, legal, tax, and accounting expertise just a click away
+                </p>
+              </div>
             </div>
             <button className="bg-purple-600 h-10 hover:bg-purple-700 rounded-lg text-white w-32">
               Learn more
@@ -254,419 +494,514 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="flex flex-col gap-24 items-center justify-center my-24">
+      <section className="flex flex-col gap-24 items-center justify-center py-28">
         <h1 className="font-black leading-snug text-indigo-900 text-5xl text-center tracking-wide">
           This is why 1000s of customers <br /> love Reef
         </h1>
-        <div className="flex gap-5">
-          <div
-            className="bg-white border border-gray-200 flex flex-col gap-8 py-8 px-8 rounded-lg shadow-lg"
-            style={{ width: 360 }}
-          >
-            <div className="flex gap-6 items-center">
-              <img
-                className="h-24 w-24"
-                src="https://19498232.fs1.hubspotusercontent-na1.net/hubfs/19498232/Deel/Images/Slider%20images/MST.png"
-                alt=""
-              />
-              <div className="flex flex-col gap-1">
-                <h3 className="font-light text-gray-900 tracking-wide">
-                  Doug Ludlow
-                </h3>
-                <p className="font-bold text-gray-500 text-sm tracking-wide">
-                  CEO
+        <div
+          className="relative w-3/4"
+          data-carousel="static"
+          id="indicators-carousel"
+        >
+          <div className="flex gap-5 overflow-hidden relative rounded-lg">
+            <div
+              className="bg-white border border-gray-200 duration-700 ease-in-out flex flex-col gap-8 py-8 px-8 rounded-lg shadow-lg"
+              data-carousel-item="active"
+              style={{ width: 360 }}
+            >
+              <div className="flex gap-6 items-center">
+                <img
+                  className="h-24 w-24"
+                  src="https://19498232.fs1.hubspotusercontent-na1.net/hubfs/19498232/Deel/Images/Slider%20images/MST.png"
+                  alt=""
+                />
+                <div className="flex flex-col gap-1">
+                  <h3 className="font-light text-gray-900 tracking-wide">
+                    Doug Ludlow
+                  </h3>
+                  <p className="font-bold text-gray-500 text-sm tracking-wide">
+                    CEO
+                  </p>
+                  <h4 className="font-bold text-indigo-900 text-sm tracking-wide">
+                    MainStreet
+                  </h4>
+                </div>
+              </div>
+              <div className="flex flex-col gap-2 w-full">
+                <div className="flex gap-3 items-center">
+                  <div className="flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                  </div>
+                  <p className="font-normal text-sm text-gray-900 tracking-wide">
+                    Rating: 5
+                  </p>
+                </div>
+                <h5 className="font-semibold text-indigo-900 text-lg tracking-wide">
+                  We can bring on contractors <br /> in any country in minutes.
+                </h5>
+                <p className="font-normal text-sm text-gray-900 tracking-wide">
+                  Before discovering Reef, we were <br /> intimidated by hiring
+                  remotely. Now <br /> we can't imagine doing it any other{" "}
+                  <br /> way. Onboarding in super smooth, and <br /> the whole
+                  team loves the autonomy <br /> they get using Reef.
                 </p>
-                <h4 className="font-bold text-indigo-900 text-sm tracking-wide">
-                  MainStreet
-                </h4>
               </div>
             </div>
-            <div className="flex flex-col gap-2 w-full">
-              <div className="flex gap-3 items-center">
-                <div className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
+            <div
+              className="bg-white border border-gray-200 duration-700 ease-in-out flex flex-col gap-8 py-8 px-8 rounded-lg shadow-lg"
+              data-carousel-item="active"
+              style={{ height: 400, width: 360 }}
+            >
+              <div className="flex gap-6 items-center">
+                <img
+                  className="h-24 w-24"
+                  src="https://19498232.fs1.hubspotusercontent-na1.net/hubfs/19498232/grace-posthog.webp"
+                  alt=""
+                />
+                <div className="flex flex-col gap-1">
+                  <h3 className="font-light text-gray-900 tracking-wide">
+                    Grace McKenzie
+                  </h3>
+                  <p className="font-bold text-gray-500 text-sm tracking-wide">
+                    Operations Leader
+                  </p>
+                  <h4 className="font-bold text-indigo-900 text-sm tracking-wide">
+                    PostHog
+                  </h4>
                 </div>
+              </div>
+              <div className="flex flex-col gap-2 w-full">
+                <div className="flex gap-3 items-center">
+                  <div className="flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                  </div>
+                  <p className="font-normal text-sm text-gray-900 tracking-wide">
+                    Rating: 5
+                  </p>
+                </div>
+                <h5 className="font-semibold text-indigo-900 text-lg tracking-wide">
+                  Reef enables us to hire, stay compliant, and pay a fully{" "}
+                  <br /> remote team.
+                </h5>
                 <p className="font-normal text-sm text-gray-900 tracking-wide">
-                  Rating: 5
+                  Reef makes it incredibly easy to hire international
+                  contractors and stay <br /> compliant in thier home countries.
                 </p>
               </div>
-              <h5 className="font-semibold text-indigo-900 text-lg tracking-wide">
-                We can bring on contractors <br /> in any country in minutes.
-              </h5>
-              <p className="font-normal text-sm text-gray-900 tracking-wide">
-                Before discovering Reef, we were <br /> intimidated by hiring
-                remotely. Now <br /> we can't imagine doing it any other <br />{" "}
-                way. Onboarding in super smooth, and <br /> the whole team loves
-                the autonomy <br /> they get using Reef.
-              </p>
+            </div>
+            <div
+              className="bg-white border border-gray-200 duration-700 ease-in-out flex flex-col gap-8 py-8 px-8 rounded-lg shadow-lg"
+              data-carousel-item="active"
+              style={{ width: 360 }}
+            >
+              <div className="flex gap-6 items-center">
+                <img
+                  className="h-24 w-24"
+                  src="https://19498232.fs1.hubspotusercontent-na1.net/hubfs/19498232/Deel/Images/Slider%20images/Maker.png"
+                  alt=""
+                />
+                <div className="flex flex-col gap-1">
+                  <h3 className="font-light text-gray-900 tracking-wide">
+                    Ben Tossel
+                  </h3>
+                  <p className="font-bold text-gray-500 text-sm tracking-wide">
+                    Founder
+                  </p>
+                  <h4 className="font-bold text-indigo-900 text-sm tracking-wide">
+                    MakerPad
+                  </h4>
+                </div>
+              </div>
+              <div className="flex flex-col gap-2 w-full">
+                <div className="flex gap-3 items-center">
+                  <div className="flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                  </div>
+                  <p className="font-normal text-sm text-gray-900 tracking-wide">
+                    Rating: 5
+                  </p>
+                </div>
+                <h5 className="font-semibold text-indigo-900 text-lg tracking-wide">
+                  Reef has made it SUPER <br /> simple for a small company{" "}
+                  <br /> based all over the world to <br /> hire and pay folks.
+                </h5>
+                <p className="font-normal text-sm text-gray-900 tracking-wide">
+                  The plateform is extremely easy to <br /> navigate, really
+                  user-friendly and Reef <br /> support has gone above and
+                  beyond <br /> any request we've had.
+                </p>
+              </div>
+            </div>
+            <div
+              className="bg-white border border-gray-200 duration-700 ease-in-out flex flex-col gap-8 py-8 px-8 rounded-lg shadow-lg"
+              data-carousel-item="active"
+              style={{ height: 400, width: 360 }}
+            >
+              <div className="flex gap-6 items-center">
+                <img
+                  className="h-24 w-24"
+                  src="https://19498232.fs1.hubspotusercontent-na1.net/hubfs/19498232/lizette-moralis.jpeg"
+                  alt=""
+                />
+                <div className="flex flex-col gap-1">
+                  <h3 className="font-light text-gray-900 tracking-wide">
+                    Lizette Kuld
+                  </h3>
+                  <p className="font-bold text-gray-500 text-sm tracking-wide">
+                    Head of People
+                  </p>
+                  <h4 className="font-bold text-indigo-900 text-sm tracking-wide">
+                    Moralis Web3
+                  </h4>
+                </div>
+              </div>
+              <div className="flex flex-col gap-2 w-full">
+                <div className="flex gap-3 items-center">
+                  <div className="flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      className="fill-green-500 h-6 w-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
+                      />
+                    </svg>
+                  </div>
+                  <p className="font-normal text-sm text-gray-900 tracking-wide">
+                    Rating: 5
+                  </p>
+                </div>
+                <h5 className="font-semibold text-indigo-900 text-lg tracking-wide">
+                  Reef enables us to hire, stay compliant, and pay a fully{" "}
+                  <br /> remote team.
+                </h5>
+                <p className="font-normal text-sm text-gray-900 tracking-wide">
+                  Reef makes it incredibly easy to hire international
+                  contractors and stay <br /> compliant in thier home countries.
+                </p>
+              </div>
             </div>
           </div>
-          <div
-            className="bg-white border border-gray-200 flex flex-col gap-8 py-8 px-8 rounded-lg shadow-lg"
-            style={{ height: 400, width: 360 }}
-          >
-            <div className="flex gap-6 items-center">
-              <img
-                className="h-24 w-24"
-                src="https://19498232.fs1.hubspotusercontent-na1.net/hubfs/19498232/grace-posthog.webp"
-                alt=""
-              />
-              <div className="flex flex-col gap-1">
-                <h3 className="font-light text-gray-900 tracking-wide">
-                  Grace McKenzie
-                </h3>
-                <p className="font-bold text-gray-500 text-sm tracking-wide">
-                  Operations Leader
-                </p>
-                <h4 className="font-bold text-indigo-900 text-sm tracking-wide">
-                  PostHog
-                </h4>
-              </div>
-            </div>
-            <div className="flex flex-col gap-2 w-full">
-              <div className="flex gap-3 items-center">
-                <div className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                </div>
-                <p className="font-normal text-sm text-gray-900 tracking-wide">
-                  Rating: 5
-                </p>
-              </div>
-              <h5 className="font-semibold text-indigo-900 text-lg tracking-wide">
-                Reef enables us to hire, stay compliant, and pay a fully <br />{" "}
-                remote team.
-              </h5>
-              <p className="font-normal text-sm text-gray-900 tracking-wide">
-                Reef makes it incredibly easy to hire international contractors
-                and stay <br /> compliant in thier home countries.
-              </p>
-            </div>
+          <div className="absolute flex -translate-x-1/2 space-x-3 rtl:space-x-reverse buttom-0 left-1/2">
+            <button
+              type="button"
+              className="bg-blue-100 w-3 h-3 rounded-full"
+              aria-current="true"
+              aria-label="Slide 1"
+              data-carousel-slide-to="0"
+            ></button>
+            <button
+              type="button"
+              className="bg-blue-100 w-3 h-3 rounded-full"
+              aria-current="false"
+              aria-label="Slide 2"
+              data-carousel-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              className="bg-blue-100 w-3 h-3 rounded-full"
+              aria-current="false"
+              aria-label="Slide 3"
+              data-carousel-slide-to="2"
+            ></button>
+            <button
+              type="button"
+              className="bg-blue-100 w-3 h-3 rounded-full"
+              aria-current="false"
+              aria-label="Slide 4"
+              data-carousel-slide-to="3"
+            ></button>
+            <button
+              type="button"
+              className="bg-blue-100 w-3 h-3 rounded-full"
+              aria-current="false"
+              aria-label="Slide 5"
+              data-carousel-slide-to="4"
+            ></button>
           </div>
-          <div
-            className="bg-white border border-gray-200 flex flex-col gap-8 py-8 px-8 rounded-lg shadow-lg"
-            style={{ width: 360 }}
+          <button
+            type="button"
+            className="absolute top-0 start-0 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-prev
           >
-            <div className="flex gap-6 items-center">
-              <img
-                className="h-24 w-24"
-                src="https://19498232.fs1.hubspotusercontent-na1.net/hubfs/19498232/Deel/Images/Slider%20images/Maker.png"
-                alt=""
-              />
-              <div className="flex flex-col gap-1">
-                <h3 className="font-light text-gray-900 tracking-wide">
-                  Ben Tossel
-                </h3>
-                <p className="font-bold text-gray-500 text-sm tracking-wide">
-                  Founder
-                </p>
-                <h4 className="font-bold text-indigo-900 text-sm tracking-wide">
-                  MakerPad
-                </h4>
-              </div>
-            </div>
-            <div className="flex flex-col gap-2 w-full">
-              <div className="flex gap-3 items-center">
-                <div className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                </div>
-                <p className="font-normal text-sm text-gray-900 tracking-wide">
-                  Rating: 5
-                </p>
-              </div>
-              <h5 className="font-semibold text-indigo-900 text-lg tracking-wide">
-                Reef has made it SUPER <br /> simple for a small company <br />{" "}
-                based all over the world to <br /> hire and pay folks.
-              </h5>
-              <p className="font-normal text-sm text-gray-900 tracking-wide">
-                The plateform is extremely easy to <br /> navigate, really
-                user-friendly and Reef <br /> support has gone above and beyond{" "}
-                <br /> any request we've had.
-              </p>
-            </div>
-          </div>
-          <div
-            className="bg-white border border-gray-200 flex flex-col gap-8 py-8 px-8 rounded-lg shadow-lg"
-            style={{ height: 400, width: 360 }}
+            <span className="bg-blue-100 inline-flex items-center justify-center w-20 h-20 rounded-full">
+              <svg
+                className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 1 1 5l4 4"
+                />
+              </svg>
+              <span className="sr-only">Previous</span>
+            </span>
+          </button>
+          <button
+            type="button"
+            className="absolute top-0 end-0 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-next
           >
-            <div className="flex gap-6 items-center">
-              <img
-                className="h-24 w-24"
-                src="https://19498232.fs1.hubspotusercontent-na1.net/hubfs/19498232/lizette-moralis.jpeg"
-                alt=""
-              />
-              <div className="flex flex-col gap-1">
-                <h3 className="font-light text-gray-900 tracking-wide">
-                  Lizette Kuld
-                </h3>
-                <p className="font-bold text-gray-500 text-sm tracking-wide">
-                  Head of People
-                </p>
-                <h4 className="font-bold text-indigo-900 text-sm tracking-wide">
-                  Moralis Web3
-                </h4>
-              </div>
-            </div>
-            <div className="flex flex-col gap-2 w-full">
-              <div className="flex gap-3 items-center">
-                <div className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    className="fill-green-500 h-6 w-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"
-                    />
-                  </svg>
-                </div>
-                <p className="font-normal text-sm text-gray-900 tracking-wide">
-                  Rating: 5
-                </p>
-              </div>
-              <h5 className="font-semibold text-indigo-900 text-lg tracking-wide">
-                Reef enables us to hire, stay compliant, and pay a fully <br />{" "}
-                remote team.
-              </h5>
-              <p className="font-normal text-sm text-gray-900 tracking-wide">
-                Reef makes it incredibly easy to hire international contractors
-                and stay <br /> compliant in thier home countries.
-              </p>
-            </div>
-          </div>
+            <span className="bg-blue-100 inline-flex items-center justify-center w-20 h-20 rounded-full">
+              <svg
+                className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 9 4-4-4-4"
+                />
+              </svg>
+              <span className="sr-only">Next</span>
+            </span>
+          </button>
         </div>
       </section>
       <footer className="bg-indigo-50">
         <div className="flex justify-center py-20">
-          <div className="grid grid-cols-2 gap-40 px-4 py-6 lg:py-8 md:grid-cols-4">
-            <div className="flex flex-col gap-10">
+          <div className="gap-52 grid grid-cols-4">
+            <div className="flex flex-col gap-12">
               <div>
                 <h2 className="font-semibold mb-3 text-sm text-indigo-500 tracking-wider uppercase">
                   platform
@@ -769,7 +1104,7 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-12">
               <div>
                 <h2 className="font-semibold mb-3 text-sm text-indigo-500 uppercase">
                   industry
@@ -857,7 +1192,7 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-12">
               <div>
                 <h2 className="font-semibold mb-3 text-sm text-indigo-500 uppercase">
                   why reef.
@@ -951,7 +1286,7 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-12">
               <div>
                 <h2 className="font-semibold mb-3 text-sm text-indigo-500 uppercase">
                   company
@@ -1046,10 +1381,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="px-4 py-6 md:flex md:items-center md:justify-between">
-          <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
-            © 2023 <a href="https://flowbite.com/">Flowbite™</a>. All Rights
-            Reserved.
+        <hr className="bg-gray-300 border-0 dark:bg-gray-700 h-px my-8 mx-auto w-3/4" />
+        <div className="flex items-center justify-between pb-16 mx-auto w-3/4">
+          <span className="text-sm text-gray-500">
+            © Copyright 2023. All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
             <a
@@ -1057,89 +1392,51 @@ export default function Home() {
               className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
-                className="w-4 h-4"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 8 19"
+                viewBox="0 0 512 512"
+                fill="black"
+                height="1.3em"
+                width="1.3em"
               >
-                <path
-                  fill-rule="evenodd"
-                  d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
-                  clip-rule="evenodd"
-                />
+                <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
               </svg>
-              <span className="sr-only">Facebook page</span>
             </a>
             <a
               href="#"
               className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
-                className="w-4 h-4"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 21 16"
+                viewBox="0 0 24 24"
+                fill="black"
+                height="1.4em"
+                width="1.4em"
               >
-                <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" />
+                <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 01-1.93.07 4.28 4.28 0 004 2.98 8.521 8.521 0 01-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z" />
               </svg>
-              <span className="sr-only">Discord community</span>
             </a>
             <a
               href="#"
               className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
-                className="w-4 h-4"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 17"
+                viewBox="0 0 1024 1024"
+                fill="black"
+                height="1.4em"
+                width="1.4em"
               >
-                <path
-                  fill-rule="evenodd"
-                  d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
-                  clip-rule="evenodd"
-                />
+                <path d="M941.3 296.1a112.3 112.3 0 00-79.2-79.3C792.2 198 512 198 512 198s-280.2 0-350.1 18.7A112.12 112.12 0 0082.7 296C64 366 64 512 64 512s0 146 18.7 215.9c10.3 38.6 40.7 69 79.2 79.3C231.8 826 512 826 512 826s280.2 0 350.1-18.8c38.6-10.3 68.9-40.7 79.2-79.3C960 658 960 512 960 512s0-146-18.7-215.9zM423 646V378l232 133-232 135z" />
               </svg>
-              <span className="sr-only">Twitter page</span>
             </a>
             <a
               href="#"
               className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
-                className="w-4 h-4"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
+                viewBox="0 0 900 1000"
+                fill="black"
+                height="1.2em"
+                width="1.2em"
               >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-              <span className="sr-only">GitHub account</span>
-            </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
-            >
-              <svg
-                className="w-4 h-4"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z"
-                  clip-rule="evenodd"
-                />
+                <path d="M204 152c0 26.667-9.667 49.333-29 68s-44.333 28-75 28c-29.333 0-53.333-9.333-72-28S0 178.667 0 152c0-28 9.333-51 28-69s43.333-27 74-27 55 9 73 27 27.667 41 29 69M6 942V324h192v618H6m306-420c0-57.333-1.333-123.333-4-198h166l10 86h4c40-66.667 103.333-100 190-100 66.667 0 120.333 22.333 161 67s61 111 61 199v366H708V600c0-89.333-32.667-134-98-134-46.667 0-79.333 24-98 72-4 8-6 24-6 48v356H312V522" />
               </svg>
               <span className="sr-only">Dribbble account</span>
             </a>
